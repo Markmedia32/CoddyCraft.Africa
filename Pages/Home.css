@@ -1,0 +1,98 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1a1a1a;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00c6ff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #00c6ff;
+}
+
+.home-container{
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+.hero{
+    text-align: center;
+    padding: 4rem 1rem;
+    background-image: url(/public/hero.png);
+    background-size: cover;
+    color: white;
+    border-radius: 12px;
+    margin-bottom: 4rem;
+}
+
+.hero h1{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.hero p{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    padding: 40px;
+}
+.hero-btn{
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 30px;
+    background-color: #ffcb05;
+    color: #222;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: #e6b800;
+}
+
+.services-overview h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #222;
+}
+
+.cards-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-card{
+    background-color: #f4f4f4;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgb(0 0 0 /0.1);
+    max-width: 300px;
+    flex: 1 1 300px;
+    text-align: center;
+    transition: transfom 0.3s ease;
+}
